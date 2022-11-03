@@ -1,0 +1,967 @@
+.webScreenIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.symbolsDiv {
+  position: absolute;
+  height: 96.97%;
+  width: 99.82%;
+  top: 1.59%;
+  right: 0.18%;
+  bottom: 1.44%;
+  left: 0;
+}
+.fickleflightLogoDiv {
+  position: relative;
+  width: 174px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.exploreDiv,
+.hotelsButton,
+.offersButton {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.hotelsButton,
+.offersButton {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-roboto);
+  color: var(--color-gray-1000);
+  text-align: left;
+}
+.offersButton {
+  color: var(--color-gray-1300);
+}
+.navigationMenuDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-4xl);
+}
+.hamburgerMenuIcon {
+  display: none;
+}
+.hamburgerMenuIcon,
+.notificationBellIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.unsplashd1UPkiFd04AIcon {
+  border-radius: var(--br-3xl);
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.accountSectionDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.navigationRightDiv {
+  justify-content: flex-end;
+  gap: var(--gap-6xl);
+}
+.navigationRightDiv,
+.topContainerDiv,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topContainerDiv {
+  flex: 1;
+  justify-content: space-between;
+}
+.topHeader {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 77px;
+  padding: var(--padding-md) var(--padding-7xl);
+  box-sizing: border-box;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-1300);
+  font-family: var(--font-roboto);
+}
+.bannerBackground {
+  position: absolute;
+  height: calc(100% - 0.4px);
+  width: 100%;
+  top: 0.4px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bedsDiv,
+.staysInLosAngeles {
+  position: relative;
+  display: inline-block;
+}
+.staysInLosAngeles {
+  letter-spacing: 0.02em;
+  line-height: 48px;
+  width: 1280px;
+}
+.bedsDiv {
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.pilldefaultDiv {
+  background-color: var(--color-white);
+  color: var(--color-gray-1000);
+}
+.pilldefaultDiv,
+.pilldefaultDiv1 {
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-sm);
+  align-items: center;
+  justify-content: center;
+}
+.optionsDiv,
+.titleDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.optionsDiv {
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+}
+.titleDiv {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 1440px;
+  flex-direction: column;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.bannerDiv {
+  align-self: stretch;
+  position: relative;
+  background: linear-gradient(100.3deg, #0b5ba8, #299bd8);
+  height: 193px;
+}
+.headerDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-8xl);
+  font-family: var(--font-baloo-bhai);
+}
+.resultsDiv {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.filtersIcon {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.filtersDiv1 {
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.filtersDiv {
+  position: relative;
+  width: 86px;
+  height: 24px;
+  font-size: var(--font-size-base);
+}
+.resultsSumamryDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.resultsImageIcon {
+  position: relative;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  width: 260px;
+  height: 220px;
+  object-fit: cover;
+}
+.kingBedStandard {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 146.92px;
+}
+.div,
+.holidayInnExpre,
+.reviewsDiv {
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.holidayInnExpre {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: capitalize;
+  color: var(--color-gray-1400);
+  width: 232.87px;
+}
+.div,
+.reviewsDiv {
+  position: absolute;
+  top: 0;
+  left: 55.97px;
+  width: 117.94px;
+}
+.div {
+  left: 21.99px;
+  font-weight: 500;
+  width: 23.99px;
+}
+.starsDiv,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vectorIcon {
+  height: 84.21%;
+  width: 34.78%;
+  right: 65.22%;
+  bottom: 15.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.starsDiv {
+  width: 45.98px;
+  height: 19px;
+  color: var(--color-gray-1400);
+}
+.reviewDiv {
+  position: relative;
+  width: 173.91px;
+  height: 19px;
+  color: var(--color-gray-1000);
+}
+.resultAndVideo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.videoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nightDiv,
+.s286B {
+  position: absolute;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.s286B {
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+}
+.nightDiv {
+  top: 8px;
+  left: 73px;
+  font-size: var(--font-size-xs);
+}
+.pricingDiv,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 26px;
+}
+.rectangleDiv {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-1000);
+}
+.searchFlightsDiv {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 54.5px);
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.viewDetailsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37.58px;
+  left: 0.49px;
+  width: 164px;
+  height: 46px;
+}
+.priceAndCta {
+  position: relative;
+  width: 164.49px;
+  height: 83.58px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-1400);
+}
+.resultsCardDiv,
+.resultsDetailsDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultsDetailsDiv {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-3xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.resultsCardDiv {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-1500);
+  flex-direction: row;
+  gap: var(--gap-md);
+}
+.freehandLosAngeles {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 273.87px;
+}
+.bedInQuad,
+.div1,
+.reviewsDiv1 {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.bedInQuad {
+  left: 0;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-600);
+  width: 172.79px;
+}
+.div1,
+.reviewsDiv1 {
+  left: 64.07px;
+  letter-spacing: 0.04em;
+  width: 138.7px;
+}
+.div1 {
+  left: 25.86px;
+  font-weight: 500;
+  width: 28.21px;
+}
+.reviewDiv1,
+.starsDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 54.07px;
+  height: 19px;
+  color: var(--color-gray-1400);
+}
+.reviewDiv1 {
+  top: 57px;
+  width: 202.77px;
+  color: var(--color-gray-1000);
+}
+.resultDiv {
+  flex: 1;
+  position: relative;
+  height: 76px;
+}
+.resultsTitleDiv1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceAndCta1 {
+  position: relative;
+  width: 164.49px;
+  height: 83.58px;
+  font-size: var(--font-size-3xl);
+}
+.resultsCardDiv1,
+.resultsDetailsDiv1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultsDetailsDiv1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-3xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.resultsCardDiv1 {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-1500);
+  flex-direction: row;
+  gap: var(--gap-md);
+  color: var(--color-gray-1400);
+}
+.mapIframe {
+  border: 0;
+  align-self: stretch;
+  position: relative;
+  height: 600px;
+  display: none;
+}
+.resultCardsCol {
+  width: 561.87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.mapIframe1 {
+  border: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.hotelResultsDiv,
+.resultsSectionDiv {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultsSectionDiv {
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+}
+.hotelResultsDiv {
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  color: var(--color-gray-1400);
+}
+.newsletterSectionBackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 530px;
+  object-fit: cover;
+}
+.formTitleB,
+.formTitleSubtext {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.formTitleSubtext {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.formTitleB {
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-1200);
+}
+.formHeaderDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fillInYourDetailsToJoinT {
+  align-self: stretch;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+}
+.formTextDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputTextField {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.formFieldsDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.buttonDiv {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.button,
+.unstyledButtonDiv {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.unstyledButtonDiv {
+  padding: var(--padding-8xs) var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  border-radius: var(--br-3xs);
+  width: 164px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-orange-300);
+}
+.formDiv,
+.subscribeFormDiv {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.formDiv {
+  align-self: stretch;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-2xl) var(--padding-3xl);
+  align-items: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  color: var(--color-gray-800);
+}
+.subscribeFormDiv {
+  position: relative !important;
+  top: 52px;
+  left: auto !important;
+  width: 549px;
+  padding: var(--padding-xs);
+  align-items: center;
+  gap: var(--gap-4xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletterFormSection {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 529px;
+  overflow: hidden;
+}
+.logoIcon {
+  position: relative;
+  width: 174px;
+  height: 33px;
+  overflow: hidden;
+}
+.fickleFlightIsYourOneStop {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+}
+.socialIcons {
+  position: relative;
+  width: 130px;
+  height: 30px;
+}
+.fickleFlightBioDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  margin-bottom: 40px !important;
+}
+.seperatorDiv {
+  position: relative;
+  border-right: 1px solid var(--color-gray-1700);
+  box-sizing: border-box;
+  width: 1px;
+  height: 157.87px;
+}
+.aboutUsDiv,
+.companyDiv1 {
+  position: absolute;
+  top: 47.76px;
+  left: 0;
+  display: inline-block;
+  width: 135.67px;
+}
+.companyDiv1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+  width: 174.72px;
+}
+.careersDiv,
+.howWeWork,
+.newsDiv {
+  position: absolute;
+  top: 78.76px;
+  left: 0;
+  display: inline-block;
+  width: 84.28px;
+}
+.careersDiv,
+.howWeWork {
+  top: 109.76px;
+  width: 115.11px;
+}
+.howWeWork {
+  top: 140.76px;
+  width: 197.33px;
+}
+.companyDiv {
+  position: relative;
+  width: 197.33px;
+  height: 159.76px;
+}
+.accountDiv,
+.supportDiv1 {
+  position: absolute;
+  top: 47.76px;
+  left: 0;
+  display: inline-block;
+  width: 109.63px;
+}
+.supportDiv1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+  width: 131.56px;
+}
+.accessibilityDiv,
+.fAQDiv,
+.supportCenterDiv {
+  position: absolute;
+  top: 78.76px;
+  left: 0;
+  display: inline-block;
+  width: 197.33px;
+}
+.accessibilityDiv,
+.fAQDiv {
+  top: 109.76px;
+  width: 52.99px;
+}
+.accessibilityDiv {
+  top: 140.76px;
+  width: 164.44px;
+}
+.covidAdvisoryDiv {
+  top: 47.76px;
+  width: 172.87px;
+}
+.airlineFeesDiv,
+.covidAdvisoryDiv,
+.moreDiv1,
+.tipsDiv {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.moreDiv1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+  width: 76.65px;
+}
+.airlineFeesDiv,
+.tipsDiv {
+  top: 78.76px;
+  width: 135.36px;
+}
+.tipsDiv {
+  top: 109.76px;
+  width: 50.56px;
+}
+.moreDiv {
+  position: relative;
+  width: 197.33px;
+  height: 159.76px;
+}
+.footerLinksDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+}
+.footer,
+.footerSectionDiv,
+.hotelsPageDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.footerSectionDiv,
+.hotelsPageDiv {
+  flex-direction: column;
+  gap: var(--gap-0);
+}
+.footerSectionDiv {
+  align-self: stretch;
+  text-align: center;
+  color: var(--color-gray-1100);
+}
+.hotelsPageDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .titleDiv,
+  .topHeader {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .bannerDiv {
+    padding: var(--padding-sm) var(--padding-5xl) var(--padding-sm) 41px;
+    box-sizing: border-box;
+  }
+  .footer,
+  .hotelResultsDiv {
+    padding: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .navigationMenuDiv {
+    display: none;
+  }
+  .hamburgerMenuIcon {
+    display: flex;
+  }
+  .titleDiv,
+  .topHeader {
+    padding-left: var(--padding-lg);
+    padding-right: var(--padding-lg);
+    box-sizing: border-box;
+  }
+  .bannerDiv {
+    padding: var(--padding-sm) var(--padding-lg);
+    box-sizing: border-box;
+  }
+  .mapIframe {
+    display: flex;
+    max-width: 1000px;
+  }
+  .resultCardsCol {
+    width: 100% !important;
+  }
+  .mapIframe1 {
+    display: none;
+  }
+  .hotelResultsDiv,
+  .subscribeFormDiv {
+    padding: var(--padding-3xl) var(--padding-lg);
+    box-sizing: border-box;
+  }
+  .subscribeFormDiv {
+    padding: var(--padding-lg) 0;
+  }
+  .fickleFlightBioDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .seperatorDiv {
+    display: none;
+  }
+  .footerLinksDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-5xl) var(--padding-lg) var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .navigationRightDiv {
+    display: flex;
+  }
+  .staysInLosAngeles {
+    font-size: var(--font-size-6xl);
+  }
+  .bedsDiv {
+    font-size: var(--font-size-xs);
+  }
+  .resultsImageIcon {
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+  .resultsDetailsDiv {
+    width: 100%;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .resultsCardDiv {
+    flex-direction: column;
+  }
+  .resultsDetailsDiv1 {
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .resultsCardDiv1 {
+    flex-direction: column;
+  }
+  .resultCardsCol {
+    gap: var(--gap-xl);
+  }
+  .button {
+    width: 100%;
+  }
+  .button:hover {
+    background-color: var(--color-orange-200);
+  }
+  .subscribeFormDiv {
+    padding-left: var(--padding-lg);
+    padding-right: var(--padding-lg);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+  .companyDiv {
+    margin-bottom: 40px !important;
+  }
+  .footerLinksDiv {
+    flex-direction: column;
+    gap: var(--gap-0);
+  }
+  .footer {
+    padding: var(--padding-3xl) var(--padding-lg);
+    box-sizing: border-box;
+  }
+}
