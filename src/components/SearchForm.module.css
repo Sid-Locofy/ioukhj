@@ -1,0 +1,169 @@
+.searchFlightsB {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.radioFormControlLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.radioFormControlLabel1 {
+  position: absolute;
+  top: 0;
+  left: 106px;
+}
+.flightTypeDiv {
+  position: relative;
+  width: 216.53px;
+  height: 38px;
+}
+.flightOptionsDiv,
+.formTitleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formTitleGroup {
+  overflow: hidden;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.formTitleGroup,
+.selectOutlinedAutocomplete {
+  align-self: stretch;
+}
+.inputGroupDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.inputsRowDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.buttonDiv {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 146.98px;
+}
+.buttonGroupDiv,
+.searchFlightsButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  border-radius: var(--br-3xs);
+  width: 164px;
+  height: 56px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-orange-300);
+}
+.buttonGroupDiv {
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.formInputsRow,
+.searchFormDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.searchFormDiv {
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-1400);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1100px) {
+  .inputsRowDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroupDiv {
+    width: 100%;
+    text-align: left;
+  }
+  .formInputsRow,
+  .searchFormDiv {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) {
+  .searchFlightsB {
+    width: 100%;
+    padding-bottom: var(--padding-7xs);
+    margin-bottom: 6px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eaeaea;
+    flex: unset;
+    align-self: stretch;
+  }
+  .flightTypeDiv {
+    width: 100% !important;
+  }
+  .flightOptionsDiv {
+    width: 100%;
+  }
+  .formTitleGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .inputGroupDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRowDiv {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+  .searchFormDiv {
+    margin-top: 20px;
+  }
+}

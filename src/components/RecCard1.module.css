@@ -1,0 +1,91 @@
+.unsplash5MV818tzxeoIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-sm) var(--br-sm) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 242px;
+  object-fit: cover;
+}
+.baliDiv,
+.d3NDiv {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-family: var(--font-roboto);
+  text-align: left;
+  display: inline-block;
+}
+.baliDiv {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-gray-1300);
+}
+.d3NDiv {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.frameDiv1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 34px;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-gray-1000);
+  text-align: right;
+  display: inline-block;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.holidayDetailsDiv,
+.recCard1 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.holidayDetailsDiv {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-xs) var(--padding-2xs);
+  justify-content: center;
+}
+.recCard1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-2xs);
+  background-color: transparent;
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  min-width: 230px;
+  width: 25%;
+}
+@media screen and (max-width: 1100px) {
+  .recCard1 {
+    width: 50%;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .recCard1 {
+    min-width: 250px;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
